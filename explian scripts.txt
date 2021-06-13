@@ -1,0 +1,16 @@
+"scripts": {
+    "dev": "npm-run-all -s generate webpackDev", 
+    "webpackDev": "webpack serve",
+    "build":"npm-run-all -s generate webpackBuild",
+    "webpackBuild": "webpack",
+    "previewDist": "node previewDist",
+    "generate": "babel-node --presets=@babel/preset-react,@babel/preset-env generateHtml.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  1- when you hit (npm run dev) --> it will run (npm run generate) then run (npm run webpackDev)
+  2- when you hit (npm run webpackDev) --> this is for developing only, it create index.html
+  3- when you hit (npm run webpackBuild) --> this is will make build for our app
+  4- when you hit (npm run previewDist) --> this is will run generateHtml.js file
+  6- when you hit (npm run generate) --> this is will run generate.js file that will create index-template.html file 
+   

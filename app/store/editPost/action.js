@@ -1,0 +1,8 @@
+export const DATA_FETCHED = "DATA_FETCHED";
+export const TITLE_CHANGE = "TITLE_CHANGE";
+export const BODY_CHANGE = "BODY_CHANGE";
+export const SUBMIT_REQUEST = "SUBMIT_REQUEST";
+export const REQUEST_STARTED = "REQUEST_STARTED";
+export const REQUEST_FINISHED = "REQUEST_FINISHED";
+export const TITLE_RULES = "TITLE_RULES";
+export const BODY_RULES = "BODY_RULES";
